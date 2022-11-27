@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="icon" href="../images/2.png" />
+		<link rel="stylesheet" type="text/css" href="../css/default.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/seek.css"/>
+		<script src="../js/jquery-3.5.1.js" type="text/javascript" charset="utf-8"></script>
+		
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background-color: #FFFFFF;
+			}
+			.xian{
+				height: 2px;
+				background-color: #E1251B;
+			}
+			
+			.commodity-warpper::after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			
+			.commodity-warpper{
+				width: 1200px;
+				margin: 5px auto;
+				display: block;
+				
+			}
+			
+			.commodity-warpper li{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.commodity{
+				margin-top: 10px;
+				width: 240px;
+				height: 466px;
+				float: left;
+				
+			}
+			.commodity .war{
+				padding: 12px 9px 12px 9px;
+				border: 1px solid #FFFFFF;
+				transition: border-color .1s ease;
+				position: relative;
+				
+			}
+			
+			.commodity .war .images{
+				width: 220px;
+				height: 220px;
+			}
+			
+			.commodity .war:hover{
+				border-color: #e9e9e9;
+				box-shadow: 0 0 2px 2px #f8f8f8;
+			}
+			
+			.commodity .war:hover .collect{
+				display: block;
+			}
+			
+			.commodity .war p img{
+				width: 25px;
+				height: 25px;
+				border: 1px solid #ddd;
+			}
+			
+			.commodity .war .price{
+				font-size: 20px;
+				color: #e4393c;
+				margin-bottom: 8px;
+				margin-top: 5px;
+			}
+			
+			.commodity .war .text{
+				width: 220px;
+				height: 40px;
+				overflow: hidden;
+				font-size: 12px;
+				margin-bottom: 8px;
+				line-height: 20px;
+			}
+			
+			.commodity .war .text a{
+				color: #666;
+			}
+			
+			.commodity .war .appraise{
+				font-size: 12px;
+				color: #a7a7a7;
+				margin-bottom: 6px;
+			}
+			
+			.commodity .war .appraise a{
+				display: inline-block;
+				color: #646fb0;
+				font-weight: 700;
+				font-family: verdana;
+			}
+			
+			.commodity .war .shopping{
+				margin-bottom: 8px;
+			}
+			
+			.commodity .war .shopping a{
+				display: inline-block;
+				width: 108px;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+			
+			.commodity .war .shop a{
+				font-size: 12px;
+				color: #999;
+			}
+			
+			.commodity .war .shop img{
+				width: 16px;
+				height: 16px;
+				vertical-align: -2px;
+				margin-left: 5px;
+			}
+			
+			.commodity .war .autarky{
+				font-size: 12px;
+				
+			}
+			
+			.commodity .war .autarky .zi{
+				background: #e23a3a;
+				padding: 0 3px;
+				border-radius: 2px;
+				color: #fff;
+				
+			}
+			
+			.commodity .war .autarky .sh{
+				border: 1px solid #4d88ff;
+				color: #4d88ff;
+				padding: 0 3px;
+				border-radius: 2px;
+			}
+			
+			.wrapper{
+				position: relative;
+				left: 450px;
+				margin: 50px auto;
+			}
+			
+			.turn-page-wrapper::after {
+			    content: '';
+			    display: block;
+			    clear: both;
+			}
+			.turn-page-wrapper * {
+			    padding: 0;
+			    margin: 0;
+			    list-style: none;
+			}
+			.turn-page-wrapper > li, .turn-page-wrapper > span {
+			    float: left;
+			    padding: 5px 10px;
+			    margin: 0 5px;
+				border-radius: 5px;
+			}
+			.turn-page-wrapper > li {
+			    border: 1px solid #ddd;
+			    cursor: pointer;
+			}
+			.turn-page-wrapper > li.current-page {
+			    background-color: #428bca;
+			    color: #ddd;
+			}
+			
+			.padding{
+				height: 200px;
+			}
+			
+			.commodity .collect{
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				position: absolute;
+				bottom: 2px;
+				right: 2px;
+				
+				background-color: rgba(0, 0, 0, .2);
+				font-size: 14px;
+				line-height: 20px;
+				text-align: center;
+				color: #e23a3a;
+				cursor: pointer;
+				display: none;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="seek">
+			<div id="center" class="clear">
+				<div id="logo">
+					<a href="JDindex.html" class="dog" target="_blank"><img src="../images/logolittle.png"></a>
+					<span class="text"></span>
+					<h1><a href="#">京东</a></h1>
+					
+				</div>
+		
+				<div id="box" class="clear">
+					<button type="button" id="buycar" class="fr">
+						<span class="iconfont">&#xe652;</span>
+						<a href="#">我的购物车</a>
+					</button>
+					<div id="input" class="fr">
+						<form class="clear">
+							<input type="text" placeholder="联想一体机" class="fl text" />
+							<button type="submit" class="fr buttons">
+								<span class="iconfont">&#xe682;</span>
+							</button>
+							<span class="iconfont fr" id="camera">&#xe609;</span>
+						</form>
+					</div>
+		
+					<ul id="little" class="clear">
+						<li id="li1"><a href="#">健康生活季</a></li>
+						<li><a href="#">新品发布</a></li>
+						<li><a href="#">抢购机券</a></li>
+						<li><a href="#">5折手机</a></li>
+						<li><a href="#">家装节</a></li>
+						<li><a href="#">国妆好货</a></li>
+						<li><a href="#">百一补贴</a></li>
+						<li><a href="#">品质厨具</a></li>
+						<li><a href="#">耕地机</a></li>
+		
+					</ul>
+		
+				</div>
+			</div>
+		</div>
+		<!-- <iframe align="center" width="100%" height="100" src="seek.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> -->
+		<div class="xian">
+			
+		</div>
+		
+		<ul class="commodity-warpper">
+			<!-- <li class="commodity">
+			    <div class="war">
+					 <a href="#"><img src="../images/phoneImages/shouji.jpg" class="images"></a>
+					 <p>
+					  <img src="../images/phoneImages/shouji.jpg" >
+					  <img src="../images/phoneImages/shouji.jpg" >
+					  <img src="../images/phoneImages/shouji.jpg" >
+					 </p>
+					 <p class="price">￥699.00</p>
+					 <p class="text"><a href="#"> Redmi 8A 5000mAh大电量 大字体大音量大内存 骁龙八核处理器 AI人脸解锁 莱茵护眼全面屏 4GB+64GB 耀夜黑 游戏智能老人</a></p>
+					 <p class="appraise"><a href="#">52万+</a><span>条评价</span></p>
+					 <p class="shopping"><span class="shop"><a href="#">小米京东自营旗舰店</a><img src="../images/phoneImages/face.png" ></span></p>
+					<p class="autarky"><span class="zi">自营</span> <span class="sh">放心购</span></p>
+			    </div>
+			</li> -->
+		</ul>
+		
+		
+		<div class="wrapper">
+			
+		</div>
+		
+		<div class="padding">
+			
+		</div>
+		<script src="../js/navbar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/pagingPlugins.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var bugs = {
+				content:10
+			}
+			var wrapper = document.getElementsByClassName("wrapper")[0];
+			var dom = new TurnPage({
+			    currentPage: 1,
+			    wrap: wrapper
+			   
+			});
+			
+			
+			sends(0, bugs.content)
+			//dom.pageAll = count
+			dom.allPage = targets.count
+			console.log("dom.allpage:" + dom.allPage)
+			console.log(dom)
+			dom.init()
+			fn()
+			
+			
+			var input =  document.querySelector("#seek #center #box #input .text")
+			console.log(input)
+			var button =  document.querySelector("#seek #center #box #input .buttons")
+			console.log(button)
+			button.addEventListener("click", function(e){
+				e.preventDefault()
+				//input.innerText = "shouji"
+				var text = input.value
+				targets.last = 2
+				if(text != ""){
+					targets.mymolds = text
+					sends(0, 10)
+					dom.allPage = targets.count
+					dom.init()
+				}
+				
+			}, false)
+		</script>
+		
+		
+	
+	</body>
+</html>

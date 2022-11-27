@@ -1,0 +1,52 @@
+body, div, a, ul, li, span, p, button, after, img, h1, h2, h3, h4, form, input{
+	margin: 0;
+	padding: 0;
+}
+
+i{
+	font-style: normal;
+}
+
+body{
+	background-color: #f4f4f4;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li{
+	list-style: none;
+}
+
+button{
+	cursor: pointer;
+	outline: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clear::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+	
+.color333{
+	color: #333333;
+}
+
+.colorJdRed{
+	color: #c81623;
+}
+
+.font{
+	font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}

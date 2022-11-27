@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<style type="text/css">
+			@import url("../css/default.css");
+			
+			@font-face {
+			  font-family:'iconfont';
+			  src: url('../icon/iconfont.eot');
+			  src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'),
+			      url('../icon/iconfont.woff2') format('woff2'),
+			      url('../icon/iconfont.woff') format('woff'),
+			      url('../icon/iconfont.ttf') format('truetype'),
+			      url('../icon/iconfont.svg#iconfont') format('svg');
+			}
+			
+			.iconfont {
+			  font-family: "iconfont" !important;
+			  font-style: normal;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+			#seek{
+				height: 100px;
+				border-bottom: 1px solid #ddd;
+				background-color: #fff;
+				overflow: hidden;
+			}
+			
+			#seek #center{
+				height: 100px;
+				width: 1190px ;
+				margin: 0 auto;
+			}
+			
+			#seek #center #logo{	
+				width: 350px;
+				height: 50px;
+				float: left;
+				overflow: hidden;
+				margin-top: 10px;
+				margin-top: 15px;
+			}
+			
+			#seek #center #logo .text{
+				margin-left: 80px;
+				margin-top: 20px;
+				font-size: 25px;
+				line-height: 45px;
+				font-weight: 400;
+				color: #666666;
+				vertical-align: 6px;
+			}
+			
+			#seek #center #logo .dog img{
+				width: 134px;
+				height: 42px;
+			}
+			
+			#seek #center #box{
+				display: inline-block;
+				width: 762px;
+				height: 100px;
+				padding-top: 25px;
+				box-sizing: border-box;
+			}
+			
+			#seek #center #box #input{
+				width: 546px;
+				height: 32px;
+				border: 2px solid #e2231a;
+				display: table-cell;
+				vertical-align: middle;
+				position: relative;
+				margin-right: 20px;
+			}
+			
+			#seek #center #box #input button{
+				height: 34px;
+				width: 58px;
+				background-color: #e2231a;
+				border: none;
+				text-align: center;
+				line-height: 32px;
+				color: #fff;
+				font-size: 24px;
+				font-weight: bold;
+				margin-top: -1px;
+			}
+			
+			#seek #center #box #input #camera{
+				line-height: 32px;
+				font-size: 12px;
+				color: #999;
+				margin-right: 12px;
+			}
+			
+			#seek #center #box #input .text{
+				border: none;
+				width: 425px;
+				height: 26px;
+				padding: 2px 0px 2px 17px;
+				margin-top: 1px;
+				margin-left: 1px;
+				outline: none;
+				position: absolute;
+				z-index: 2;
+				background-color: transparent;
+				font-size: 12px;
+			}
+			
+			
+			#seek #center #box #buycar{
+				box-sizing: content-box;
+				width: 130px;
+				height: 34px;
+				border: 1px solid #e3e4e5;
+				color: #e1251b;
+				font-size: 0px;
+				background-color: transparent;
+				outline: none;
+			}
+			
+			#seek #center #box #buycar span{
+				font-size: 20px;
+				margin-right: 10px;
+				font-weight: bold;
+			}	
+			
+			#seek #center #box #buycar a{
+				font-size: 12px;
+				line-height: 34px;
+				vertical-align: 2px;
+				color: #e1251b;
+			}
+			
+			#seek #center #box #little{
+				display: inline-block;
+				width: 550px;
+				height: 20px;
+				padding-top: 5px;
+				margin-left: 60px;
+			}
+			
+			#seek #center #box #little li{
+				float: left;
+				font-size: 12px;
+				margin-right: 10px;	
+			}
+			
+			#seek #center #box #little li a{
+				color: #999;
+			}
+			
+			
+			#seek #center #box #little #li1 a{
+				color: #e1251b;
+			}
+			
+			#seek #center #box #little a:hover{
+				color: #e1251b;
+			}
+			
+			.clear{
+				clear: both;
+			}
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="seek">
+			<div id="center" class="clear">
+				<div id="logo">
+					<a href="JDindex.html" class="dog" target="_blank"><img src="../images/logolittle.png"></a>
+					<span class="text"></span>
+					<h1><a href="#">京东</a></h1>
+					
+				</div>
+		
+				<div id="box" class="clear">
+					<button type="button" id="buycar" class="fr">
+						<span class="iconfont">&#xe652;</span>
+						<a href="#">我的购物车</a>
+					</button>
+					<div id="input" class="fr">
+						<form action="#" method="" class="clear">
+							<input type="text" placeholder="联想一体机" class="fl text" />
+							<button type="submit" class="fr buttons">
+								<span class="iconfont">&#xe682;</span>
+							</button>
+							<span class="iconfont fr" id="camera">&#xe609;</span>
+						</form>
+					</div>
+		
+					<ul id="little" class="clear">
+						<li id="li1"><a href="#">健康生活季</a></li>
+						<li><a href="#">新品发布</a></li>
+						<li><a href="#">抢购机券</a></li>
+						<li><a href="#">5折手机</a></li>
+						<li><a href="#">家装节</a></li>
+						<li><a href="#">国妆好货</a></li>
+						<li><a href="#">百一补贴</a></li>
+						<li><a href="#">品质厨具</a></li>
+						<li><a href="#">耕地机</a></li>
+		
+					</ul>
+		
+				</div>
+			</div>
+		</div>
+		<!-- <script src="../js/new.js" type="text/javascript" charset="utf-8" async="async"></script> -->
+		
+		<script type="text/javascript">
+			
+			//console.log(targets.mymolds)
+		</script>
+		
+	</body>
+	
+	
+</html>

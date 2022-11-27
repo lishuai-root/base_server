@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuai.base.dao.userDao.BaseUserBaseDao">
+    <resultMap id="BaseResultMap" type="com.shuai.base.baseCommon.common.User">
+        <id column="base_user_userid" jdbcType="VARCHAR" property="userId"/>
+        <result column="base_user_loginName" jdbcType="VARCHAR" property="loginName"/>
+        <result column="base_user_userName" jdbcType="VARCHAR" property="userName"/>
+        <result column="base_user_passWord" jdbcType="VARCHAR" property="passWord"/>
+        <result column="base_user_iphone" jdbcType="VARCHAR" property="iphone"/>
+        <result column="base_user_email" jdbcType="VARCHAR" property="email"/>
+        <result column="base_user_signature" jdbcType="VARCHAR" property="signature"/>
+        <result column="base_user_userRoleId" jdbcType="VARCHAR" property="userRoleId"/>
+        <result column="base_user_userRoleName" jdbcType="VARCHAR" property="userRoleName"/>
+        <result column="base_user_permission" jdbcType="INTEGER" property="permission"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        base_user
+        .
+        userid
+        as base_user_userid, base_user.loginName as base_user_loginName,
+    base_user.userName as base_user_userName, base_user.`passWord` as `base_user_passWord`, 
+    base_user.iphone as base_user_iphone, base_user.email as base_user_email, base_user.signature as base_user_signature, 
+    base_user.userRoleId as base_user_userRoleId, base_user.userRoleName as base_user_userRoleName, 
+    base_user.permission as base_user_permission, base_user.`status` as `base_user_status`, 
+    base_user.createUserId as base_user_createUserId, base_user.uptime as base_user_uptime
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from base_user base_user
+        where base_user.userid = #{userid,jdbcType=VARCHAR}
+    </select>
+
+    <select id="selectByLoginName" resultType="com.shuai.base.baseCommon.common.User" parameterType="java.lang.String">
+        SELECT *
+        FROM BASEDB.BASE_USER
+        WHERE LOGINNAME = #{loginName,jdbcType=VARCHAR}
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+        delete
+        from base_user
+        where userid = #{userid,jdbcType=VARCHAR}
+    </delete>
+
+
+    <insert id="insert" keyColumn="userid" keyProperty="userid" parameterType="com.shuai.base.baseCommon.common.User"
+            useGeneratedKeys="true">
+        insert into base_user (loginName, userName, `passWord`,
+                               iphone, email, signature,
+                               userRoleId, userRoleName, permission,
+                               `status`, createUserId, uptime)
+        values (#{loginName,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, #{passWord,jdbcType=VARCHAR},
+                #{iphone,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{signature,jdbcType=VARCHAR},
+                #{userRoleId,jdbcType=VARCHAR}, #{userRoleName,jdbcType=VARCHAR}, #{permission,jdbcType=INTEGER},
+                #{status,jdbcType=CHAR}, #{createUserId,jdbcType=VARCHAR}, #{uptime,jdbcType=TIMESTAMP})
+    </insert>
+
+
+    <insert id="insertSelective" keyColumn="userid" keyProperty="userid"
+            parameterType="com.shuai.base.baseCommon.common.User" useGeneratedKeys="true">
+        insert into basedb.base_user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                userId,
+            </if>
+            <if test="loginName != null">
+                loginName,
+            </if>
+            <if test="userName != null">
+                userName,
+            </if>
+            <if test="passWord != null">
+                `passWord`,
+            </if>
+            <if test="iphone != null">
+                iphone,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="signature != null">
+                signature,
+            </if>
+            <if test="userRoleId != null">
+                userRoleId,
+            </if>
+            <if test="userRoleName != null">
+                userRoleName,
+            </if>
+            <if test="permission != null">
+                permission
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                #{userId,jdbcType=VARCHAR},
+            </if>
+            <if test="loginName != null">
+                #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="userName != null">
+                #{userName,jdbcType=VARCHAR},
+            </if>
+            <if test="passWord != null">
+                #{passWord,jdbcType=VARCHAR},
+            </if>
+            <if test="iphone != null">
+                #{iphone,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="signature != null">
+                #{signature,jdbcType=VARCHAR},
+            </if>
+            <if test="userRoleId != null">
+                #{userRoleId,jdbcType=VARCHAR},
+            </if>
+            <if test="userRoleName != null">
+                #{userRoleName,jdbcType=VARCHAR},
+            </if>
+            <if test="permission != null">
+                #{permission,jdbcType=INTEGER}
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.shuai.base.baseCommon.common.User">
+        update base_user
+        <set>
+            <if test="loginName != null">
+                loginName = #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="userName != null">
+                userName = #{userName,jdbcType=VARCHAR},
+            </if>
+            <if test="passWord != null">
+                `passWord` = #{passWord,jdbcType=VARCHAR},
+            </if>
+            <if test="iphone != null">
+                iphone = #{iphone,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="signature != null">
+                signature = #{signature,jdbcType=VARCHAR},
+            </if>
+            <if test="userRoleId != null">
+                userRoleId = #{userRoleId,jdbcType=VARCHAR},
+            </if>
+            <if test="userRoleName != null">
+                userRoleName = #{userRoleName,jdbcType=VARCHAR},
+            </if>
+            <if test="permission != null">
+                permission = #{permission,jdbcType=INTEGER},
+            </if>
+            <if test="status != null">
+                `status` = #{status,jdbcType=CHAR},
+            </if>
+            <if test="createUserId != null">
+                createUserId = #{createUserId,jdbcType=VARCHAR},
+            </if>
+            <if test="uptime != null">
+                uptime = #{uptime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where userid = #{userid,jdbcType=VARCHAR}
+    </update>
+    <update id="releaseRestrictionUser" parameterType="com.shuai.base.baseCommon.common.User">
+        update basedb.base_user
+        set permission = #{permission,jdbcType=INTEGER}
+        where userid = #{userId,jdbcType=VARCHAR}
+    </update>
+
+    <update id="createTable">
+        create table basedb.test
+        (
+            id    varchar(30),
+            name  varchar(30),
+            email varchar(30)
+        )
+    </update>
+</mapper>

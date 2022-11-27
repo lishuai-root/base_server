@@ -1,0 +1,195 @@
+2022-08-25 22:02:11.165 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:02:11.219 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 17716 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:02:11.222 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:02:11.400 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:02:11.400 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:02:11.986 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:02:11.987 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:02:12.002 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:02:12.009 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:02:12.010 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:02:12.021 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:02:12.283 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$cfb4474a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:02:12.314 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:02:12.689 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:02:12.696 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:02:12.697 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:02:12.697 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:02:12.769 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:02:12.769 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1368 ms
+2022-08-25 22:02:13.799 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:02:14.921 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-08-25 22:02:14.930 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-25 22:03:07.115 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:03:07.158 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 18372 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:03:07.159 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:03:07.304 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:03:07.304 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:03:07.827 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:03:07.828 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:03:07.846 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:03:07.851 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:03:07.852 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:03:07.862 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:03:08.113 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$256d7c43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:03:08.138 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:03:08.457 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:03:08.464 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:03:08.465 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:03:08.465 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:03:08.533 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:03:08.533 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1228 ms
+2022-08-25 22:03:09.469 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:03:09.597 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-25 22:03:10.445 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-25 22:03:10.465 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:03:10.475 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:03:10.486 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Started BaseServerApplication in 3.666 seconds (JVM running for 4.319)
+2022-08-25 22:06:28.101 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-25 22:06:28.104 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-25 22:06:32.481 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:06:32.523 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 17644 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:06:32.524 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:06:32.678 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:06:32.678 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:06:33.173 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:06:33.174 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:06:33.189 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:06:33.194 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:06:33.195 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:06:33.204 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:06:33.436 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55d65d0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:06:33.461 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:06:33.781 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:06:33.787 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:06:33.788 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:06:33.788 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:06:33.853 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:06:33.853 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1175 ms
+2022-08-25 22:06:34.777 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:06:34.870 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-25 22:06:35.674 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-25 22:06:35.689 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:06:35.697 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:06:35.707 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Started BaseServerApplication in 3.506 seconds (JVM running for 4.113)
+2022-08-25 22:09:22.383 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-25 22:09:22.389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-25 22:09:26.841 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:09:26.890 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 5936 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:09:26.890 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:09:27.035 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:09:27.035 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:09:27.519 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:09:27.520 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:09:27.535 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:09:27.540 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:09:27.541 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:09:27.550 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:09:27.783 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55d65d0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:09:27.809 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:09:28.116 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:09:28.122 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:09:28.122 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:09:28.123 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:09:28.187 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:09:28.187 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1151 ms
+2022-08-25 22:09:29.086 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:09:29.187 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-25 22:09:29.976 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-25 22:09:29.990 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:09:29.998 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:09:30.008 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Started BaseServerApplication in 3.438 seconds (JVM running for 3.997)
+2022-08-25 22:09:41.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-25 22:09:41.981 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-25 22:09:46.879 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:09:46.924 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 10756 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:09:46.925 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:09:47.069 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:09:47.069 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:09:47.569 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:09:47.570 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:09:47.584 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:09:47.589 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:09:47.589 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:09:47.598 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:09:47.819 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$55d65d0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:09:47.846 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:09:48.162 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:09:48.169 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:09:48.170 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:09:48.170 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:09:48.240 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:09:48.240 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+2022-08-25 22:09:49.165 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:09:49.259 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-25 22:09:50.033 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-25 22:09:50.047 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:09:50.055 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:09:50.064 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Started BaseServerApplication in 3.461 seconds (JVM running for 4.005)
+2022-08-25 22:10:03.738 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-25 22:10:03.743 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-25 22:10:13.613 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:10:13.656 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 3776 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:10:13.656 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:10:13.799 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:10:13.799 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:10:14.296 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:10:14.297 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:10:14.311 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:10:14.316 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:10:14.317 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:10:14.327 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:10:14.546 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$256d7c43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:10:14.577 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:10:14.890 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:10:14.897 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:10:14.898 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:10:14.898 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:10:14.967 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:10:14.967 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1168 ms
+2022-08-25 22:10:15.879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:10:15.974 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-25 22:10:16.773 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-25 22:10:16.790 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:10:16.798 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:10:16.809 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Started BaseServerApplication in 3.467 seconds (JVM running for 4.002)
+2022-08-25 22:12:58.571 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-25 22:12:58.576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-08-25 22:15:23.282 [restartedMain] INFO  org.springframework.nativex.NativeListener - AOT mode disabled
+2022-08-25 22:15:23.328 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Starting BaseServerApplication using Java 17 on LAPTOP-9AOGQ1DT with PID 16964 (E:\All_workspace\IDEA_workspace\base_server\target\classes started by 是李帅啊 in E:\All_workspace\IDEA_workspace\base_server)
+2022-08-25 22:15:23.328 [restartedMain] INFO  com.shuai.base.BaseServerApplication - The following 1 profile is active: "dev"
+2022-08-25 22:15:23.481 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 22:15:23.481 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 22:15:24.002 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:15:24.002 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-25 22:15:24.019 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2022-08-25 22:15:24.024 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-25 22:15:24.025 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-25 22:15:24.035 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-08-25 22:15:24.282 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2ad902e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-25 22:15:24.307 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-08-25 22:15:24.655 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:15:24.662 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:15:24.662 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:15:24.664 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-25 22:15:24.738 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:15:24.738 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+2022-08-25 22:15:25.893 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-08-25 22:15:26.000 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-08-25 22:15:26.898 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-08-25 22:15:26.914 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:15:26.923 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:15:26.935 [restartedMain] INFO  com.shuai.base.BaseServerApplication - Started BaseServerApplication in 3.945 seconds (JVM running for 4.518)
+2022-08-25 22:15:38.758 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-25 22:15:38.759 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-25 22:15:38.759 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-25 22:15:38.836 [http-nio-8080-exec-2] INFO  com.shuai.base.controller.loginAction.Login - login user : User(loginName=lishuaiaaaaab, userName=null, passWord=123456, userRoleId=null, userRoleName=null, userId=null, iphone=null, email=null, signature=null, requestId=null, permission=0, loginTime=0, lastActivityTime=0, effectiveTime=0, restrictLoginStart=0, limitLoginDuration=0, loginStatus=0)
+2022-08-25 22:15:38.909 [http-nio-8080-exec-2] INFO  c.s.b.s.u.impl.PermissionCheckServiceImpl - lishuaiaaaaab登录成功。
+2022-08-25 22:15:38.911 [http-nio-8080-exec-2] INFO  com.shuai.base.controller.loginAction.Login - ResponseMessage(super=Message(status=104, success=true, data=User(loginName=lishuaiaaaaab, userName=User_1659016715294, passWord=e10adc3949ba59abbe56e057f20f883e, userRoleId=null, userRoleName=null, userId=7d2ec34fad2f6888, iphone=null, email=null, signature=null, requestId=null, permission=4, loginTime=0, lastActivityTime=0, effectiveTime=0, restrictLoginStart=0, limitLoginDuration=0, loginStatus=0)))
+2022-08-25 23:39:08.154 [http-nio-8080-exec-9] INFO  com.shuai.base.controller.loginAction.Login - login user : User(loginName=lishuaiaaaaab, userName=null, passWord=123456, userRoleId=null, userRoleName=null, userId=null, iphone=null, email=null, signature=null, requestId=null, permission=0, loginTime=0, lastActivityTime=0, effectiveTime=0, restrictLoginStart=0, limitLoginDuration=0, loginStatus=0)
+2022-08-25 23:39:08.157 [http-nio-8080-exec-9] INFO  c.s.b.s.u.impl.PermissionCheckServiceImpl - lishuaiaaaaab登录成功。
+2022-08-25 23:39:08.158 [http-nio-8080-exec-9] INFO  com.shuai.base.controller.loginAction.Login - ResponseMessage(super=Message(status=104, success=true, data=User(loginName=lishuaiaaaaab, userName=User_1659016715294, passWord=e10adc3949ba59abbe56e057f20f883e, userRoleId=null, userRoleName=null, userId=7d2ec34fad2f6888, iphone=null, email=null, signature=null, requestId=null, permission=4, loginTime=0, lastActivityTime=0, effectiveTime=0, restrictLoginStart=0, limitLoginDuration=0, loginStatus=0)))
+2022-08-25 23:45:41.471 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-08-25 23:45:41.473 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

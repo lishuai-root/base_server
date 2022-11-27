@@ -1,0 +1,319 @@
+2022-08-20 16:46:18.038 [restartedMain] DEBUG com.shuai.base.BaseServerApplication - Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-08-20 16:46:18.961 [restartedMain] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-08-20 16:46:19.824 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2ea0e82
+2022-08-20 16:46:20.090 [restartedMain] DEBUG i.n.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2022-08-20 16:46:20.094 [restartedMain] DEBUG i.l.core.resource.AddressResolverGroupProvider - Starting with netty's non-blocking DNS resolver library
+2022-08-20 16:46:20.104 [restartedMain] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-08-20 16:46:20.104 [restartedMain] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-08-20 16:46:20.116 [restartedMain] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-20 16:46:20.128 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-08-20 16:46:20.128 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+2022-08-20 16:46:20.129 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-08-20 16:46:20.129 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-08-20 16:46:20.130 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2022-08-20 16:46:20.130 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-08-20 16:46:20.130 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-08-20 16:46:20.131 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: unavailable, true, Reflective setAccessible(true) disabled
+2022-08-20 16:46:20.131 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2f4948e4
+2022-08-20 16:46:20.132 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-08-20 16:46:20.132 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-08-20 16:46:20.132 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 8556380160 bytes (maybe)
+2022-08-20 16:46:20.133 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\是李帅啊\AppData\Local\Temp (java.io.tmpdir)
+2022-08-20 16:46:20.133 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-20 16:46:20.133 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2022-08-20 16:46:20.134 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2022-08-20 16:46:20.134 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-20 16:46:20.135 [restartedMain] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2022-08-20 16:46:20.135 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-08-20 16:46:20.135 [restartedMain] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-20 16:46:20.151 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-20 16:46:20.151 [restartedMain] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-20 16:46:20.155 [restartedMain] DEBUG io.netty.resolver.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2022-08-20 16:46:20.170 [restartedMain] DEBUG i.n.r.dns.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/[240e:58:c000:1000:116:228:111:118]:53, /[240e:58:c000:1600:180:168:255:18]:53, /192.168.1.1:53] (sun.net.dns.ResolverConfiguration)
+2022-08-20 16:46:20.175 [restartedMain] DEBUG io.lettuce.core.resource.KqueueProvider - Starting without optional kqueue library
+2022-08-20 16:46:20.176 [restartedMain] DEBUG io.lettuce.core.resource.IOUringProvider - Starting without optional io_uring library
+2022-08-20 16:46:20.184 [restartedMain] DEBUG io.lettuce.core.resource.EpollProvider - Starting without optional epoll library
+2022-08-20 16:46:20.196 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 16
+2022-08-20 16:46:20.201 [restartedMain] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2022-08-20 16:46:20.215 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-08-20 16:46:20.215 [restartedMain] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-08-20 16:46:20.216 [restartedMain] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@c393ba7
+2022-08-20 16:46:20.221 [restartedMain] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-20 16:46:20.226 [restartedMain] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2022-08-20 16:46:20.228 [restartedMain] DEBUG io.lettuce.core.event.jfr.EventRecorderHolder - Starting with JFR support
+2022-08-20 16:46:20.242 [restartedMain] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+2022-08-20 16:46:20.585 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings - 
+	c.s.b.c.l.Login:
+	{POST [/base/exit]}: exit(HttpServletRequest)
+	{POST [/base/test]}: test(HttpServletRequest,HttpServletResponse)
+	{POST [/base/admin]}: inspectPermissionAdmin()
+	{POST [/base/user]}: inspectPermissionUser()
+	{POST [/base/root]}: inspectPermissionRoot()
+	{POST [/base/login]}: login(User,HttpServletRequest)
+	{GET [/base/jpg]}: downloadFile(HttpServletResponse)
+	{POST [/base/register]}: registerUser(User)
+	{POST [/base/createTable]}: createTable()
+	{POST [/base/permissionTest]}: permissionTest()
+	{POST [/base/checkUser]}: checkUser(String)
+	{GET [/base/msg]}: downloadMsg()
+	{GET [/base/data]}: downloadMsg(HttpServletResponse)
+2022-08-20 16:46:20.587 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings - 
+	c.s.b.c.r.StaticResource:
+	{ [/static/*]}: getStaticResource(HttpServletRequest,HttpServletResponse)
+2022-08-20 16:46:20.589 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-08-20 16:46:20.601 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2022-08-20 16:46:20.616 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /static/**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2022-08-20 16:46:20.694 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+2022-08-20 16:46:20.696 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>}
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:mysql://localhost:3306/userdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+2022-08-20 16:46:20.697 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+2022-08-20 16:46:20.698 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - username................................"root"
+2022-08-20 16:46:20.698 [restartedMain] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+2022-08-20 16:46:20.830 [restartedMain] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5039f52d
+2022-08-20 16:46:20.935 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-08-20 16:46:20.940 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5653bc8
+2022-08-20 16:46:20.943 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@445831f3
+2022-08-20 16:46:20.945 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7556528b
+2022-08-20 16:46:20.948 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2477cebc
+2022-08-20 16:46:20.951 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36ae1c1f
+2022-08-20 16:46:20.954 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2039167a
+2022-08-20 16:46:20.956 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@127d9ef0
+2022-08-20 16:46:20.959 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ba98abd
+2022-08-20 16:46:20.962 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c4d8976
+2022-08-20 16:46:20.962 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-08-20 16:46:21.198 [restartedMain] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-08-20 16:46:21.215 [restartedMain] DEBUG o.a.commons.beanutils.converters.BooleanConverter - Setting default value: false
+2022-08-20 16:46:21.215 [restartedMain] DEBUG o.a.commons.beanutils.converters.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+2022-08-20 16:46:21.215 [restartedMain] DEBUG o.a.commons.beanutils.converters.BooleanConverter -     No conversion required, value is already a Boolean
+2022-08-20 16:46:21.216 [restartedMain] DEBUG o.a.commons.beanutils.converters.ByteConverter - Setting default value: 0
+2022-08-20 16:46:21.216 [restartedMain] DEBUG o.a.commons.beanutils.converters.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+2022-08-20 16:46:21.216 [restartedMain] DEBUG o.a.commons.beanutils.converters.ByteConverter -     Converted to Byte value '0'
+2022-08-20 16:46:21.216 [restartedMain] DEBUG o.a.c.beanutils.converters.CharacterConverter - Setting default value:  
+2022-08-20 16:46:21.216 [restartedMain] DEBUG o.a.c.beanutils.converters.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+2022-08-20 16:46:21.216 [restartedMain] DEBUG o.a.c.beanutils.converters.CharacterConverter -     No conversion required, value is already a Character
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.DoubleConverter - Setting default value: 0
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.DoubleConverter -     Converted to Double value '0.0'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.FloatConverter - Setting default value: 0
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.FloatConverter -     Converted to Float value '0.0'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter - Setting default value: 0
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.LongConverter - Setting default value: 0
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.LongConverter - Converting 'Integer' value '0' to type 'Long'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.LongConverter -     Converted to Long value '0'
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.ShortConverter - Setting default value: 0
+2022-08-20 16:46:21.217 [restartedMain] DEBUG o.a.commons.beanutils.converters.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+2022-08-20 16:46:21.218 [restartedMain] DEBUG o.a.commons.beanutils.converters.ShortConverter -     Converted to Short value '0'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.BigDecimalConverter - Setting default value: 0.0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.BigDecimalConverter - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.BigDecimalConverter -     No conversion required, value is already a BigDecimal
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.BigIntegerConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.BigIntegerConverter - Converting 'BigInteger' value '0' to type 'BigInteger'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.BigIntegerConverter -     No conversion required, value is already a BigInteger
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.BooleanConverter - Setting default value: false
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.BooleanConverter -     No conversion required, value is already a Boolean
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.ByteConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.ByteConverter -     Converted to Byte value '0'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.CharacterConverter - Setting default value:  
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.c.beanutils.converters.CharacterConverter -     No conversion required, value is already a Character
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.DoubleConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.DoubleConverter -     Converted to Double value '0.0'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.FloatConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.FloatConverter -     Converted to Float value '0.0'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.LongConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.LongConverter - Converting 'Integer' value '0' to type 'Long'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.LongConverter -     Converted to Long value '0'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.ShortConverter - Setting default value: 0
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+2022-08-20 16:46:21.219 [restartedMain] DEBUG o.a.commons.beanutils.converters.ShortConverter -     Converted to Short value '0'
+2022-08-20 16:46:21.220 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Setting default value: 
+2022-08-20 16:46:21.220 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'String' value '' to type 'String'
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Z@293e4af3
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'boolean[]' value '[Z@293e4af3' to type 'boolean[]'
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a boolean[]
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [B@341bc307
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'byte[]' value '[B@341bc307' to type 'byte[]'
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a byte[]
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [C@54022963
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'char[]' value '[C@54022963' to type 'char[]'
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a char[]
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [D@44848f7f
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'double[]' value '[D@44848f7f' to type 'double[]'
+2022-08-20 16:46:21.221 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a double[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [F@1fb63cce
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'float[]' value '[F@1fb63cce' to type 'float[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a float[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [I@755fc7c4
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'int[]' value '[I@755fc7c4' to type 'int[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a int[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [J@3053a13d
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'long[]' value '[J@3053a13d' to type 'long[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a long[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [S@50cc3f3f
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'short[]' value '[S@50cc3f3f' to type 'short[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a short[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.math.BigDecimal;@7e3239a4
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@7e3239a4' to type 'BigDecimal[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a BigDecimal[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.math.BigInteger;@582fad9e
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@582fad9e' to type 'BigInteger[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a BigInteger[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Boolean;@6bbafeb
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@6bbafeb' to type 'Boolean[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Boolean[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Byte;@13b7c5dc
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Byte[]' value '[Ljava.lang.Byte;@13b7c5dc' to type 'Byte[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Byte[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Character;@200c9385
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Character[]' value '[Ljava.lang.Character;@200c9385' to type 'Character[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Character[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Double;@4394e1da
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Double[]' value '[Ljava.lang.Double;@4394e1da' to type 'Double[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Double[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Float;@2af473ab
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Float[]' value '[Ljava.lang.Float;@2af473ab' to type 'Float[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Float[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Integer;@285b8776
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Integer[]' value '[Ljava.lang.Integer;@285b8776' to type 'Integer[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Integer[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Long;@44bd55e1
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Long[]' value '[Ljava.lang.Long;@44bd55e1' to type 'Long[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Long[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Short;@28356639
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Short[]' value '[Ljava.lang.Short;@28356639' to type 'Short[]'
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Short[]
+2022-08-20 16:46:21.222 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.String;@729d7046
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'String[]' value '[Ljava.lang.String;@729d7046' to type 'String[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a String[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Class;@571af34c
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Class[]' value '[Ljava.lang.Class;@571af34c' to type 'Class[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Class[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.util.Date;@541d4338
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Date[]' value '[Ljava.util.Date;@541d4338' to type 'Date[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Date[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.util.Calendar;@184cd02e
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'Calendar[]' value '[Ljava.util.Calendar;@184cd02e' to type 'Calendar[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Calendar[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.io.File;@26f6445a
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'java.io.File[]' value '[Ljava.io.File;@26f6445a' to type 'java.io.File[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.io.File[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Date;@d22967e
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@d22967e' to type 'java.sql.Date[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Date[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Time;@6757928e
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@6757928e' to type 'java.sql.Time[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Time[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Timestamp;@29e22f9
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@29e22f9' to type 'java.sql.Timestamp[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Timestamp[]
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.net.URL;@14bda04c
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter - Converting 'java.net.URL[]' value '[Ljava.net.URL;@14bda04c' to type 'java.net.URL[]'
+2022-08-20 16:46:21.223 [restartedMain] DEBUG o.a.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.net.URL[]
+2022-08-20 16:46:21.235 [restartedMain] DEBUG org.apache.commons.beanutils.ConvertUtils - Convert string 'localhost' to class 'java.lang.String'
+2022-08-20 16:46:21.235 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'String' value 'localhost' to type 'String'
+2022-08-20 16:46:21.235 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '61616' to type 'Integer'
+2022-08-20 16:46:21.235 [restartedMain] DEBUG o.a.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+2022-08-20 16:46:21.236 [restartedMain] DEBUG org.apache.commons.beanutils.BeanUtils - BeanUtils.populate(ConnectionOptions{ha=false}, {})
+2022-08-20 16:46:21.483 [restartedMain] DEBUG org.apache.activemq.artemis.logs - using hardware address 0:50:56:ffffffc0:0:8
+2022-08-20 16:46:21.488 [restartedMain] DEBUG org.apache.commons.beanutils.BeanUtils - BeanUtils.populate(ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=null, factory=org-apache-activemq-artemis-core-remoting-impl-netty-NettyConnectorFactory) ?port=61616&host=localhost], discoveryGroupConfiguration=null], {})
+2022-08-20 16:46:21.491 [restartedMain] DEBUG org.apache.commons.beanutils.BeanUtils - BeanUtils.populate(ActiveMQConnectionFactory [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=null, factory=org-apache-activemq-artemis-core-remoting-impl-netty-NettyConnectorFactory) ?port=61616&host=localhost], discoveryGroupConfiguration=null], clientID=null, consumerWindowSize=1048576, dupsOKBatchSize=1048576, transactionBatchSize=1048576, readOnly=false, EnableSharedClientID=false], {})
+2022-08-20 16:46:21.491 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Double' value '1.0' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '0' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Long' value '30000' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '1' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Long' value '30000' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '1048576' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '102400' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '-1' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '-1' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Long' value '30000' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'String' value '' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '-1' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Long' value '2000' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '-1' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'true' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Long' value '60000' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.492 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '5' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'true' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'true' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '1048576' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'String' value 'org.apache.activemq.artemis.api.core.client.loadbalance.RoundRobinConnectionLoadBalancingPolicy' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '1048576' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '1500' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.493 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Long' value '2000' to type 'String'
+2022-08-20 16:46:21.496 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '0' to type 'String'
+2022-08-20 16:46:21.496 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Boolean' value 'false' to type 'String'
+2022-08-20 16:46:21.496 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'String' value '' to type 'String'
+2022-08-20 16:46:21.496 [restartedMain] DEBUG o.a.commons.beanutils.converters.StringConverter - Converting 'Integer' value '65536' to type 'String'
+2022-08-20 16:46:21.631 [restartedMain] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=16, workerCount=16}
+2022-08-20 16:46:21.631 [restartedMain] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@20c61c0c
+2022-08-20 16:46:26.269 [SpringApplicationShutdownHook] DEBUG io.lettuce.core.AbstractRedisClient - Initiate shutdown (100, 100, MILLISECONDS)
+2022-08-20 16:46:26.273 [SpringApplicationShutdownHook] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown (0, 2, SECONDS)
+2022-08-20 16:46:26.275 [SpringApplicationShutdownHook] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown (0, 2, SECONDS)
+2022-08-20 16:46:26.279 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-08-20 16:46:26.280 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5039f52d: (connection evicted)
+2022-08-20 16:46:26.283 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5653bc8: (connection evicted)
+2022-08-20 16:46:26.283 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@445831f3: (connection evicted)
+2022-08-20 16:46:26.283 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7556528b: (connection evicted)
+2022-08-20 16:46:26.283 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2477cebc: (connection evicted)
+2022-08-20 16:46:26.284 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36ae1c1f: (connection evicted)
+2022-08-20 16:46:26.284 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2039167a: (connection evicted)
+2022-08-20 16:46:26.284 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@127d9ef0: (connection evicted)
+2022-08-20 16:46:26.284 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ba98abd: (connection evicted)
+2022-08-20 16:46:26.284 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c4d8976: (connection evicted)
+2022-08-20 16:46:26.284 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)

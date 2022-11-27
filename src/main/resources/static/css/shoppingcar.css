@@ -1,0 +1,11 @@
+.warp{
+	width: 900px;
+	margin: 0 auto;
+	border-bottom: 2px solid red;
+}
+
+.warp .checkbox{
+	display: block;
+	width: 100%;
+	height: 100px;
+}

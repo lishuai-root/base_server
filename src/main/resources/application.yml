@@ -1,0 +1,153 @@
+spring:
+  profiles:
+    active: dev
+
+---
+#开发环境配置
+server:
+  port: 8080
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #  activemq:
+    #    ##两个连接地址之间一定不要留空格
+    #    ##错误示范： failover:(nio://localhost:5671, nio://127.0.0.1:5672)?Randomize=true
+    #    ##注意错误示范中两个连接地址之间的空格，千万不要留个空格，否则就是血一样的教训
+    #    broker-url: failover:(nio://localhost:5671,nio://127.0.0.1:5672)?Randomize=false
+    #    user: admin
+    #    password: admin
+    ##trust-all: true
+  jms:
+    pub-sub-domain: true
+  redis:
+    host: 192.168.1.9
+    port: 6379
+    # password: root
+    #database: 0
+    connect-timeout: 5000
+  session:
+    store-type: none
+
+  servlet:
+    multipart:
+      max-file-size: 2048MB
+      max-request-size: 4096MB
+mybatis:
+  mapper-locations: classpath:mapper/**/*mapper.xml
+logging:
+  config: classpath:logback-spring.xml
+
+fixedTime: 60000
+
+cfg:
+  project-name: base_server
+
+
+
+
+---
+#测试环境配置
+server:
+  port: 8080
+
+spring:
+  config:
+    activate:
+      on-profile: test
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #  activemq:
+    #    ##两个连接地址之间一定不要留空格
+    #    ##错误示范： failover:(nio://localhost:5671, nio://127.0.0.1:5672)?Randomize=true
+    #    ##注意错误示范中两个连接地址之间的空格，千万不要留个空格，否则就是血一样的教训
+    #    broker-url: failover:(nio://localhost:5671,nio://127.0.0.1:5672)?Randomize=false
+    #    user: admin
+    #    password: admin
+    ##trust-all: true
+  jms:
+    pub-sub-domain: true
+  redis:
+    host: 192.168.1.9
+    port: 6379
+    # password: root
+    #database: 0
+    connect-timeout: 5000
+  session:
+    store-type: none
+
+  servlet:
+    multipart:
+      max-file-size: 2048MB
+      max-request-size: 4096MB
+mybatis:
+  mapper-locations: classpath:mapper/**/*mapper.xml
+logging:
+  config: classpath:logback-spring.xml
+
+fixedTime: 60000
+
+cfg:
+  project-name: base_server
+
+---
+#生产环境配置
+server:
+  port: 8080
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #  activemq:
+    #    ##两个连接地址之间一定不要留空格
+    #    ##错误示范： failover:(nio://localhost:5671, nio://127.0.0.1:5672)?Randomize=true
+    #    ##注意错误示范中两个连接地址之间的空格，千万不要留个空格，否则就是血一样的教训
+    #    broker-url: failover:(nio://localhost:5671,nio://127.0.0.1:5672)?Randomize=false
+    #    user: admin
+    #    password: admin
+    ##trust-all: true
+  jms:
+    pub-sub-domain: true
+  redis:
+    host: 192.168.1.9
+    port: 6379
+    # password: root
+    #database: 0
+    connect-timeout: 5000
+  session:
+    store-type: none
+
+  servlet:
+    multipart:
+      max-file-size: 2048MB
+      max-request-size: 4096MB
+mybatis:
+  mapper-locations: classpath:mapper/**/*mapper.xml
+logging:
+  config: classpath:logback-spring.xml
+
+fixedTime: 60000
+
+cfg:
+  project-name: base_server

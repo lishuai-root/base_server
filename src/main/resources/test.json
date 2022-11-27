@@ -1,0 +1,17 @@
+{
+  "status": 104,
+  "success": true,
+  "data": {
+    "loginName": "lishuai",
+    "userName": "测试",
+    "passWord": "123456",
+    "userRoleId": null,
+    "userRoleName": "用户",
+    "userId": null,
+    "requestId": "75fe0bf9-7361-410a-a6c3-8a4950f86389",
+    "permission": 4,
+    "loginTime": 1655566218470,
+    "lastActivityTime": 0,
+    "effectiveTime": 1200000
+  }
+}
